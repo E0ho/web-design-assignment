@@ -1,0 +1,37 @@
+/* index 메인 페이지 디자인 */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+}
+
+.img_section {
+  display: inline-block;
+  height: 720px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.img_section:hover {
+  opacity: 0.5;
+}
+
+#spring {
+  background-image: url(../img/spring.jpg);
+}
+
+#summer {
+  background-image: url(../img/summer.jpg);
+}
+
+#autumn {
+  background-image: url(../img/autumn.jpg);
+}
+
+#winter {
+  background-image: url(../img/winter.jpg);
+}
