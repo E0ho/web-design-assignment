@@ -1,0 +1,13 @@
+/* Season 디자인 */
+table {
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+}
+
+main {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
